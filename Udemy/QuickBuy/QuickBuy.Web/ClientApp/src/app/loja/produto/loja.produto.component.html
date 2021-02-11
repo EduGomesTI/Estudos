@@ -1,0 +1,23 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <img class="Imagem" src="../../../../../../arquivos/{{produto.nomeArquivo}}"/>
+    </div>
+    <div class="col-md-6">
+      <div class="row">
+        <h1 class="Nome h4">
+          {{produto.nome}}
+        </h1>
+      </div>
+      <div class="row mb-4">
+        {{produto.descricao}}
+      </div>
+      <div class="row mb-4">
+        R${{produto.preco}}
+      </div>
+      <div class="row mb-4">
+        <button class="btn btn-danger btn-lg" (click)="comprar()">Comprar</button>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,22 @@
+a{
+	padding: 5px 10px;
+	text-decoration: none;
+}
+/*É importante manter esta ordem de formatação de links*/
+/*Links não visitados*/
+a:link{
+	color: #b9c941;
+}
+/*Links visitados*/
+a:visited{
+	color: #b9c941;
+}
+/*Links Hover, passa o cursor sobre o link*/
+a:hover{
+	color: #FFF;
+	background: #6d790f;
+}
+/*Links Ativos, quando clicados*/
+a:active{
+	color: #e4f371;
+}

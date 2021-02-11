@@ -1,0 +1,15 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace Aula_142.Entities.Exceptions
+{
+    class DomainException : ApplicationException
+    {
+        public DomainException(string message) : base(message)
+        {
+
+        }
+
+    }
+}

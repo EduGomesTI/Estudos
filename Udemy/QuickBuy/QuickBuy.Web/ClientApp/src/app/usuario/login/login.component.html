@@ -1,0 +1,62 @@
+<div class="text-center">
+    <form class="form-signin">
+        <h1 class="h4 mb-3">Login do Cliente</h1>
+
+        <label for="inputEmail" class="sr-only">Email</label>
+        <input type="email" id="imputEmail" 
+               name="email" placeholder="Informe seu Email" 
+               class="form-control mb-3" 
+               [ngClass]="{
+                   'is-invalid' : email.invalid && (email.dirty || email.touched),
+                   'is-valid' : email.valid && (email.dirty || email.touched)
+               }"
+               [(ngModel)]="usuario.email" 
+               #email="ngModel"
+               email
+               required/>
+               <div class="invalid-feedback mb-2" *ngIf="email.invalid && (email.dirty || email.touched)">
+                   <div *ngIf="email.errors.required">
+                       Email é de preenchimento obrigatório
+                   </div>
+                   <div *ngIf="email.errors.email">
+                    Email não está no formato correto
+                </div>
+               </div>
+
+        <label for="inputSenha" class="sr-only">Senha</label>
+        <input type="password" id="inputSenha" 
+               name="senha" placeholder="Senha" 
+               class="form-control mb-3" 
+               [(ngModel)]="usuario.senha"
+               #senha="ngModel"
+               required/>
+               <div class="alert alert-danger" *ngIf="senha.invalid && (senha.dirty || senha.touched)">
+                   <div *ngIf="senha.errors.required">
+                       Senha deve ser informada.
+                   </div>
+               </div>
+
+               <!-- Botão Entrar -->
+
+        <button class="btn btn-primary btn-block mb-3" type="submit" (click)="entrar()" [disabled]="ativar_spinner">
+            <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true" *ngIf(ativar_spinner)></span>    
+            Entrar
+        </button>
+
+                <!-- Cadastro de novo Usuário -->
+
+        <div class="mb-3"> 
+            Novo por aqui?
+            <a [routerLink]='["/novo-usuario"]'>Cadastre-se</a>
+        </div>
+
+                <!-- Mensagens na tela -->
+
+        <div class="alert alert-danger mb-3" *ngIf="mensagem">
+            {{ mensagem }}
+        </div>
+
+                <!-- Logo do projeto -->
+        <img src="./assets/img/QuickbuyLogo.png" title="Titulo adicionado no componente"/>
+     </form>
+</div>

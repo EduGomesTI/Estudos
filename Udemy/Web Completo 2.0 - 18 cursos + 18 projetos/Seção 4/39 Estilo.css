@@ -1,0 +1,18 @@
+.conteudo{
+	background-color: blue;
+	border: 1px;
+	border-style: solid;
+	border-color: gray;
+	width: 200px;
+	height: 200px;
+	margin: 10px;
+	float: right;
+}
+.clear{
+	clear: both;
+}
+
+#principal{
+	border: 5px solid red;
+	background: green;
+}

@@ -1,0 +1,15 @@
+*{
+	color: red;
+}
+
+h2{
+	color: blue;
+}
+
+h2.verde{
+	color: green;
+}
+
+h2#amarelo{
+	color: yellow;
+}

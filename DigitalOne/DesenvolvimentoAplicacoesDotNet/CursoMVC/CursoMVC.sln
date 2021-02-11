@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CursoMVC", "CursoMVC.csproj", "{81642436-2C05-47FE-B393-2B5E3051ADDA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CursoAPI", "..\CursoAPI\CursoAPI.csproj", "{6BAEB60B-601E-4490-A387-BDBD0C41A7A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CursoTest", "..\CursoTest\CursoTest.csproj", "{B6D4DE58-B0F2-44C6-A4C4-908044B1156D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81642436-2C05-47FE-B393-2B5E3051ADDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81642436-2C05-47FE-B393-2B5E3051ADDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81642436-2C05-47FE-B393-2B5E3051ADDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81642436-2C05-47FE-B393-2B5E3051ADDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BAEB60B-601E-4490-A387-BDBD0C41A7A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BAEB60B-601E-4490-A387-BDBD0C41A7A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BAEB60B-601E-4490-A387-BDBD0C41A7A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BAEB60B-601E-4490-A387-BDBD0C41A7A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6D4DE58-B0F2-44C6-A4C4-908044B1156D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6D4DE58-B0F2-44C6-A4C4-908044B1156D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6D4DE58-B0F2-44C6-A4C4-908044B1156D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6D4DE58-B0F2-44C6-A4C4-908044B1156D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E8941892-9EEE-4E55-A9C1-0D7AF1853D8F}
+	EndGlobalSection
+EndGlobal

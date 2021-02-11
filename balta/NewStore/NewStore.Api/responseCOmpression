@@ -1,0 +1,27 @@
+
+Bem-vindo ao .NET Core 3.1.
+---------------------
+Vers∆o do SDK: 3.1.405
+
+Telemetria!
+---------
+As ferramentas do .NET Core coletam dados de uso para nos ajudar a melhorar sua experiància. Os dados s∆o anìnimos. Eles s∆o coletados pela Microsoft e compartilhados com a comunidade. Vocà pode sair de telemetria definindo a vari†vel de ambiente DOTNET_CLI_TELEMETRY_OPTOUT para '1' ou 'true' usando o shell favorito.
+
+Leia mais sobre a telemetria de Ferramentas da CLI do .NET Core: https://aka.ms/dotnet-cli-telemetry
+
+----------------
+Explore a documentaá∆o: https://aka.ms/dotnet-docs
+Relate problemas e localize a origem no GitHub: https://github.com/dotnet/core
+Novidade: https://aka.ms/dotnet-whats-new
+Saiba sobre o certificado de desenvolvedor HTTPS instalado: https://aka.ms/aspnet-core-https 
+Use 'dotnet --help' para ver os comandos dispon°veis ou visite: https://aka.ms/dotnet-cli-docs
+Crie seu primeiro aplicativo: https://aka.ms/first-net-core-app
+--------------------------------------------------------------------------------------
+  Determinando os projetos a serem restaurados...
+  Writing C:\Users\Eduardo\AppData\Local\Temp\tmp353F.tmp
+info : Adicionando PackageReference do pacote 'Microsoft' ao projeto 'H:\developer\GitHub\balta\NewStore\NewStore.Api\NewStore.Api.csproj'.
+info : Restaurando pacotes para H:\developer\GitHub\balta\NewStore\NewStore.Api\NewStore.Api.csproj...
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft/index.json
+info :   NotFound https://api.nuget.org/v3-flatcontainer/microsoft/index.json 149ms
+error: N∆o Ç poss°vel encontrar o pacote Microsoft. N∆o existe nenhum pacote com esta ID nas origens: nuget.org
+error: O pacote 'Microsoft' Ç incompat°vel com as estruturas 'all' no projeto 'H:\developer\GitHub\balta\NewStore\NewStore.Api\NewStore.Api.csproj'.
