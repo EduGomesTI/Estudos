@@ -2,14 +2,11 @@ package application;
 
 import java.io.IOException;
 
-import gui.util.Alerts;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.stage.Stage;
 import javafx.scene.Scene;
 import javafx.scene.control.ScrollPane;
-import javafx.scene.control.Alert.AlertType;
-import javafx.scene.layout.VBox;
 
 public class Main extends Application {
 	
